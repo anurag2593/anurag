@@ -1,0 +1,147 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="GetStart.master.cs" Inherits="GetStart" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Online-Passport</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .style1
+        {
+            color: #FF3300;
+        }
+        .style2
+        {
+            color: #00FF00;
+        }
+        .style3
+        {
+            text-align: left;
+        }
+        .style4
+        {
+            color: #990000;
+        }
+        .style5
+        {
+            color: #FFFFFF;
+            font-size: large;
+        }
+    </style>
+    </head>
+<body>
+	<!--top part start -->
+	<div id="top">
+  <a href="index.html"><img src="Animeted Images/AA.gif" alt="Online-Passport" 
+            width="286" border="0" /></a>
+  <ul>
+ <li class="hover"><a href="HomePage.aspx">home</a></li>
+  <li><a href="About_US.aspx">about us</a></li>
+  <li><a href="ContactDetails.aspx">contact us</a></li>
+  <li><a href="FeedBack.aspx">FeedBack</a></li>
+    
+  </ul>
+	</div>
+	<!--top part end -->
+	<!--header start -->
+	<div id="header"
+	style="background-image: url('/Online-Passport/Images Ext/3.jpg')">
+	<h2  style="font-size: 40px" class="style4">Welcome to Online-Passport</h2><br />
+    <p><span><strong>Government of WorriorS, Ministry of External Affairs</strong></span></p>        
+</div>
+	
+	<!--header end -->
+	<!--body start -->
+	<div id="body">
+	<br class="spacer" />
+	<ul class="nav">
+    	
+	<li class="navLink"><a href="Location.aspx" class="service">Location Map</a></li>
+	<li class="navLink"><a href="#" class="testimonial">testimonials</a></li>
+	<li class="navLink"><a href="#" class="project">Gallary</a></li>
+	<li class="navLink"><a href="DownloadForm.aspx" class="privacy">Download</a></li>
+	<li class="navLinkNoBdr"><a href="WebPortal.aspx" class="moreLink">Web Portal</a></li>
+    	  </ul>
+  <!--left panel start -->
+  <div id="left">
+  <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>&nbsp;</div>
+   <!--left panel end -->
+   <!--mid panel start -->
+   <div id="mid">
+   <h2>whats' new</h2>
+   <img src="images/mid_panel_pic.gif" alt="pic" width="252" height="109" />
+   <h3>A Whole New World of Possibilities&nbsp;</h3>
+   <p class="midText">
+       <img src="images/logo.gif" /></p>
+   <p class="midText2">Your Key to Staying connected to the World........</p>
+   <br class="spacer" />
+   </div>
+   <!--mid panel end -->
+    <!--right panel start -->
+	<div id="right">
+    <h2 class="mem" style="text-align: left">
+        <a href="News_Event.aspx"><span class="style5">New Event / News</span></a></h2><br />
+	<h2 class="mem" style="text-align: left">Membor Login</h2>
+	<p class="bottom2" style="text-align: right"><a href="NewUserRegistration.aspx" class="style1"><strong>~ New Member </strong></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="MemberLogin.aspx"><em><strong><span class="style2">Login&nbsp;</span></strong></em></a></p>
+	<h2 class="solution">Quick Guides</h2>
+	<ul>
+	<li class="style3"><a href="#">Frequently asked questions (FAQ)</a></li>
+	<li class="style3"><a href="GetStart.aspx">Getting Started </a></li>
+	<li class="style3"><a href="PDF/ApplicationformInstructionBooklet-V3.0.pdf">Instructions Booklet</a></li>
+	<li class="style3"><a href="PDF/passports_act.pdf"</a>Passport Act and Rules </a></li>
+    <li class="style3"><a href="PDF/passports_act.pdf"</a>Passport Rules </a></li>
+	<li class="style3"><a href="DownloadForm.aspx">Download e-Form </a></li>
+	<li class="style3"><a href="OFS.aspx">How to Apply</a></li>
+	
+	
+    <li class="style3"><a href="#">Appointment Status </a></li>
+    <li class="style3"><a href="FeesCalculation.aspx">Fees Calculation</a></li>
+     <li class="style3"><a href="AskQuery.aspx">Ask Query</a></li>
+     <li class="style3"><a href="ChangePassword.aspx">Change Password </a></li>
+
+
+	</ul>
+	<br class="spacer" />
+	</div>
+	<!--right panel end -->
+	<!--bodyBottom start -->
+	<div id="bodyBottom">
+    
+	<ul>
+	<li class="one"><a href="#">Indian Cultural Heriatge...</a><b>"India is not an underdeveloped country,</b>but rather, in the context of its history and cultural heritage, a highly developed one in an advanced state of decay."</li>
+	<li class="two"><a href="#">Indian Historical Heriatge...</a><b>India is the Cradle of the Human Race,</b>the birthplace of human speech, the mother of history, the grandmother of legend and great grand mother of tradition.</li>
+	<li class="three"><a href="#">Indian Cultural Heriatge...</a> Our most valuable and most constructive materials in the History of man are treasured up in india only.
+    <b>India is the Cradle of the Human Race,</b>India is legend of World.</li>
+	</ul>
+	<br class="spacer" />
+	</div>
+	<!--bodyBottom end-->
+	<br class="spacer" />
+	</div>
+
+	<!--body end -->
+	<!--footer start -->
+	<div id="footerMain">
+	<div id="footer">
+	<ul>
+	<li><a href="#">Home</a>|</li>
+	<li><a href="LocationMap.aspx">Search</a>|</li>
+	<li><a href="CopyrightPolicy.aspx">Copyright Policy</a>|</li>
+	<li><a href="PassportSevaVision.aspx">Vision</a>|</li>
+	<li><a href="PrivacyPolicy.aspx">Privacy</a>|</li>
+	<li><a href="FeedBack.aspx">FeedBack</a></li>
+	</ul>
+	<p class="copyright">&copy;Online-Passport. All rights reserved.</p>
+
+	<p class="design">Designed By : <a href="#" target="_blank" class="link">Sagar WorriorS</a></p>
+	</div>
+	</div>
+	<!--footer end -->
+</body>
+</html>
+
+ 

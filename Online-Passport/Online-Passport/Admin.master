@@ -1,0 +1,84 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Online-Passport</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .style1
+        {
+            color: #800000;
+            font-size: xx-large;
+        }
+        .style3
+        {
+            color: #FF3300;
+            font-size: large;
+        }
+        .style7
+        {
+            color: #FF3300;
+        }
+        </style>
+</head>
+<body>
+	<!--top part start -->
+	<div id="top">
+  <a href="index.html"><img src="Animeted%20Images/a2.gif" alt="World tour" width="286" 
+            border="0" /></a>
+  <ul>
+  <li class="hover"><a href="HomePage.aspx">home</a></li>
+  <li><a href="About_US.aspx">about us</a></li>
+  <li><a href="ContactDetails.aspx">contact us</a></li>
+  <li><a href="FeedBack.aspx">FeedBack</a></li>
+  </ul>
+	</div>
+	<!--top part end -->
+	<!--header start -->
+	<div id="header" 
+        style="background-image: url('/Online-Passport/Images Ext/3.jpg')">
+	<h2 class="style1" style="font-size: 40px">Welcome to Online-Passport</h2><br />
+    <p><span><strong>Government of WorriorS, Ministry of External Affairs</strong></span></p>
+	
+	</div>
+	<!--header end -->
+	<!--body start -->
+	<div id="body">
+	<br class="spacer" />
+	<ul class="nav">
+	<li class="navLink"><a href="Location.aspx" class="service">Location Map</a></li>
+	<li class="navLink"><a href="#" class="testimonial">testimonials</a></li>
+	<li class="navLink"><a href="#" class="project">Gallary</a></li>
+	<li class="navLink"><a href="DownloadForm.aspx" class="privacy">Download</a></li>
+	<li class="navLinkNoBdr"><a href="WebPortal.aspx" class="moreLink">Web Portal</a></li>
+	  </ul>
+  
+	<div id="bodyBottom">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+	</div>
+	<!--bodyBottom end-->
+	<br class="spacer" />
+	</div>
+	<!--body end -->
+	<!--footer start -->
+	<div id="footerMain">
+	<div id="footer">
+	<ul>
+	<li><a href="HP.aspx">Home</a>|</li>
+	<li><a href="LocationMap.aspx">Search</a>|</li>
+	<li><a href="CopyrightPolicy.aspx">Copyright Policy</a>|</li>
+	<li><a href="PassportSevaVision.aspx">Vision</a>|</li>
+	<li><a href="PrivacyPolicy.aspx">Privacy</a>|</li>
+	<li><a href="FeedBack.aspx">FeedBack</a></li>
+	</ul>
+	<p class="copyright">&copy;Online-Passport. All rights reserved.</p>
+    
+		<p class="design">Designed By : <a href="#" target="_blank" class="link">Sagar WorriorS</a></p>
+	</div>
+	</div>
+	</body>
+</html>
